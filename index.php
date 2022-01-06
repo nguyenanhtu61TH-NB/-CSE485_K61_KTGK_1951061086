@@ -8,13 +8,13 @@ $action = isset($_GET['action']) ? $_GET['action'] :
     'index';
 
 
-$controller = ucfirst($controller);
+//$controller = ucfirst($controller);
 
-$fileController = $controller . "Controller.php";
+$fileController = $controller . "controller.php";
 
 
 
-$pathController = "controller/$fileController";
+ $pathController = "controller/$fileController";
 
 
 
